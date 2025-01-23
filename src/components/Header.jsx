@@ -9,7 +9,7 @@ const Header = (props) => {
         <Content>
           <Logo>
             <a href="/home">
-              <img src="/images/home-logo.svg" alt="" />
+              <img src="/images/home-logo.svg" alt="home logo" />
             </a>
           </Logo>
           <Search>
@@ -17,14 +17,14 @@ const Header = (props) => {
               <input type="text" placeholder="Search" />
             </div>
             <SearchIcon>
-              <img src="/images/search-icon.svg" alt="" />
+              <img src="/images/search-icon.svg" alt="search icon" />
             </SearchIcon>
           </Search>
           <Nav>
             <NavListWrap>
               <NavList className="active">
                 <a>
-                  <img src="/images/nav-home.svg" alt="" />
+                  <img src="/images/nav-home.svg" alt=" nav-home" />
                   <span>Home</span>
                 </a>
               </NavList>
